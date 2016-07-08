@@ -1,0 +1,48 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="assets/catchtheitems/scripts/GameManagers/ShelfGameManager.cs">
+    <Files>
+      <File FileName="assets/labyrinthgame/scripts/MapGenerator/MapGenerator.cs" Line="1" Column="1" />
+      <File FileName="assets/labyrinthgame/scripts/MapGenerator/Tile.cs" Line="1" Column="1" />
+      <File FileName="assets/catchtheitems/scripts/UI/TimerScript.cs" Line="1" Column="1" />
+      <File FileName="assets/catchtheitems/scripts/FitToCameraWidth.cs" Line="1" Column="1" />
+      <File FileName="assets/catchtheitems/scripts/Enemy/CatControl.cs" Line="199" Column="71" />
+      <File FileName="assets/labyrinthgame/scripts/MazeGuard.cs" Line="1" Column="1" />
+      <File FileName="assets/map_scene/player/map_character_script.cs" Line="1" Column="1" />
+      <File FileName="assets/shared/ReturnToWorldSelect.cs" Line="1" Column="1" />
+      <File FileName="assets/catchtheitems/scripts/Item/DropItem.cs" Line="1" Column="1" />
+      <File FileName="assets/shared/GameCompleter.cs" Line="1" Column="1" />
+      <File FileName="assets/catchtheitems/scripts/GameManagers/WarpLevelShelfGame.cs" Line="1" Column="1" />
+      <File FileName="assets/shared/LevelSelectLimiter.cs" Line="1" Column="1" />
+      <File FileName="assets/catchtheitems/scripts/GameManagers/ShelfGameManager.cs" Line="37" Column="46" />
+      <File FileName="assets/labyrinthgame/scripts/LabManager.cs" Line="1" Column="1" />
+      <File FileName="assets/shared/GameManager.cs" Line="1" Column="1" />
+      <File FileName="assets/shared/GlobalGameManager.cs" Line="1" Column="1" />
+      <File FileName="assets/labyrinthgame/scripts/UI/Torches.cs" Line="1" Column="1" />
+      <File FileName="assets/labyrinthgame/scripts/Joystick.cs" Line="1" Column="1" />
+      <File FileName="assets/catchtheitems/scripts/UI/LevelSelectButton.cs" Line="1" Column="1" />
+      <File FileName="assets/catchtheitems/scripts/UI/Points.cs" Line="40" Column="26" />
+      <File FileName="assets/catchtheitems/scripts/UI/UI.cs" Line="1" Column="1" />
+      <File FileName="assets/labyrinthgame/scripts/Environment/MeltableWall.cs" Line="1" Column="1" />
+      <File FileName="assets/labyrinthgame/scripts/Environment/KeyGate.cs" Line="18" Column="70" />
+      <File FileName="assets/labyrinthgame/scripts/Collector.cs" Line="1" Column="1" />
+      <File FileName="assets/labyrinthgame/scripts/CatSpawn.cs" Line="1" Column="1" />
+      <File FileName="assets/labyrinthgame/scripts/UI/UIhandler.cs" Line="1" Column="1" />
+      <File FileName="assets/labyrinthgame/scripts/DontDestroy.cs" Line="1" Column="1" />
+      <File FileName="assets/labyrinthgame/scripts/Environment/BlockRot.cs" Line="1" Column="1" />
+      <File FileName="assets/labyrinthgame/scripts/JoystickPad.cs" Line="1" Column="1" />
+      <File FileName="assets/labyrinthgame/scripts/Environment/PlayerPushBlock.cs" Line="1" Column="1" />
+      <File FileName="assets/catchtheitems/scripts/Item/PowerUpSpeedScript.cs" Line="1" Column="1" />
+      <File FileName="assets/catchtheitems/scripts/Item/Snowflake.cs" Line="1" Column="1" />
+      <File FileName="assets/catchtheitems/scripts/Item/SpeedItem.cs" Line="1" Column="1" />
+      <File FileName="assets/labyrinthgame/scripts/Environment/StepOnSwitch.cs" Line="1" Column="1" />
+      <File FileName="assets/labyrinthgame/scripts/UI/TorchMeterLightAnimator.cs" Line="1" Column="1" />
+      <File FileName="assets/catchtheitems/scripts/DontDestroyOnLoad.cs" Line="1" Column="1" />
+      <File FileName="assets/catchtheitems/scripts/Player/PlayerMovement.cs" Line="31" Column="36" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

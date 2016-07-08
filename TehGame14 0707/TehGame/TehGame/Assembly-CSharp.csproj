@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{8829B3DD-0362-DF07-6A57-8DBCCDB8889C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_3_5;UNITY_5_3;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYWEBREQUEST;PLATFORM_SUPPORTS_ADS_ID;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;DEVELOPMENT_BUILD;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="assets\catchtheitems\scripts\DontDestroyOnLoad.cs" />
+     <Compile Include="assets\catchtheitems\scripts\Enemy\CatControl.cs" />
+     <Compile Include="assets\catchtheitems\scripts\Enemy\CatController.cs" />
+     <Compile Include="assets\catchtheitems\scripts\FitToCameraWidth.cs" />
+     <Compile Include="assets\catchtheitems\scripts\GameManagers\ShelfGameManager.cs" />
+     <Compile Include="assets\catchtheitems\scripts\GameManagers\WarpLevelShelfGame.cs" />
+     <Compile Include="assets\catchtheitems\scripts\Item\Bubble.cs" />
+     <Compile Include="assets\catchtheitems\scripts\Item\DropItem.cs" />
+     <Compile Include="assets\catchtheitems\scripts\Item\ItemHolder.cs" />
+     <Compile Include="assets\catchtheitems\scripts\Item\PowerUpSpeedScript.cs" />
+     <Compile Include="assets\catchtheitems\scripts\Item\SizeItem.cs" />
+     <Compile Include="assets\catchtheitems\scripts\Item\Snowflake.cs" />
+     <Compile Include="assets\catchtheitems\scripts\Item\SnowflakeManager.cs" />
+     <Compile Include="assets\catchtheitems\scripts\Item\SpawnPoint.cs" />
+     <Compile Include="assets\catchtheitems\scripts\Item\SpawnpointManager.cs" />
+     <Compile Include="assets\catchtheitems\scripts\Item\SpeedItem.cs" />
+     <Compile Include="assets\catchtheitems\scripts\Player\ButtonMove.cs" />
+     <Compile Include="assets\catchtheitems\scripts\Player\Catcher.cs" />
+     <Compile Include="assets\catchtheitems\scripts\Player\PlayerMovement.cs" />
+     <Compile Include="assets\catchtheitems\scripts\UI\LevelSelectButton.cs" />
+     <Compile Include="assets\catchtheitems\scripts\UI\PageSwapper.cs" />
+     <Compile Include="assets\catchtheitems\scripts\UI\Points.cs" />
+     <Compile Include="assets\catchtheitems\scripts\UI\RestarButton.cs" />
+     <Compile Include="assets\catchtheitems\scripts\UI\Stars.cs" />
+     <Compile Include="assets\catchtheitems\scripts\UI\TimerScript.cs" />
+     <Compile Include="assets\catchtheitems\scripts\UI\UI.cs" />
+     <Compile Include="assets\labyrinthgame\scripts\CatSpawn.cs" />
+     <Compile Include="assets\labyrinthgame\scripts\CharacterMove.cs" />
+     <Compile Include="assets\labyrinthgame\scripts\ClearGridders.cs" />
+     <Compile Include="assets\labyrinthgame\scripts\Collector.cs" />
+     <Compile Include="assets\labyrinthgame\scripts\DontDestroy.cs" />
+     <Compile Include="assets\labyrinthgame\scripts\Environment\AppearWall.cs" />
+     <Compile Include="assets\labyrinthgame\scripts\Environment\BlockRot.cs" />
+     <Compile Include="assets\labyrinthgame\scripts\Environment\DoorAction.cs" />
+     <Compile Include="assets\labyrinthgame\scripts\Environment\KeyGate.cs" />
+     <Compile Include="assets\labyrinthgame\scripts\Environment\MeltableWall.cs" />
+     <Compile Include="assets\labyrinthgame\scripts\Environment\OneWayPass.cs" />
+     <Compile Include="assets\labyrinthgame\scripts\Environment\PlayerPushBlock.cs" />
+     <Compile Include="assets\labyrinthgame\scripts\Environment\SpinBlades.cs" />
+     <Compile Include="assets\labyrinthgame\scripts\Environment\StepOnSwitch.cs" />
+     <Compile Include="assets\labyrinthgame\scripts\Environment\SwitchActivate.cs" />
+     <Compile Include="assets\labyrinthgame\scripts\Environment\SwitchTarget.cs" />
+     <Compile Include="assets\labyrinthgame\scripts\Gridder.cs" />
+     <Compile Include="assets\labyrinthgame\scripts\Joystick.cs" />
+     <Compile Include="assets\labyrinthgame\scripts\JoystickPad.cs" />
+     <Compile Include="assets\labyrinthgame\scripts\LabManager.cs" />
+     <Compile Include="assets\labyrinthgame\scripts\LevelList.cs" />
+     <Compile Include="assets\labyrinthgame\scripts\MapGenerator\MapGenerator.cs" />
+     <Compile Include="assets\labyrinthgame\scripts\MapGenerator\Tile.cs" />
+     <Compile Include="assets\labyrinthgame\scripts\MazeGuard.cs" />
+     <Compile Include="assets\labyrinthgame\scripts\UI\ContinueGame.cs" />
+     <Compile Include="assets\labyrinthgame\scripts\UI\PauseGame.cs" />
+     <Compile Include="assets\labyrinthgame\scripts\UI\TorchMeterLightAnimator.cs" />
+     <Compile Include="assets\labyrinthgame\scripts\UI\Torches.cs" />
+     <Compile Include="assets\labyrinthgame\scripts\UI\UIhandler.cs" />
+     <Compile Include="assets\labyrinthgame\scripts\UI\UnPause.cs" />
+     <Compile Include="assets\map_scene\map_camera_script.cs" />
+     <Compile Include="assets\map_scene\map_manager.cs" />
+     <Compile Include="assets\map_scene\map_ui\map_ui_script.cs" />
+     <Compile Include="assets\map_scene\player\map_character_script.cs" />
+     <Compile Include="assets\map_scene\town_people\VillageIdiotScript.cs" />
+     <Compile Include="assets\map_scene\town_people\otus1.cs" />
+     <Compile Include="assets\map_scene\town_people\otus2.cs" />
+     <Compile Include="assets\shared\GameCompleter.cs" />
+     <Compile Include="assets\shared\GameManager.cs" />
+     <Compile Include="assets\shared\GameSelectButton.cs" />
+     <Compile Include="assets\shared\GlobalGameManager.cs" />
+     <Compile Include="assets\shared\LevelSelectLimiter.cs" />
+     <Compile Include="assets\shared\MoviePlayer.cs" />
+     <Compile Include="assets\shared\QuitButton.cs" />
+     <Compile Include="assets\shared\ReturnToWorldSelect.cs" />
+     <Compile Include="assets\shared\ScreenOrientationController.cs" />
+     <Compile Include="assets\shared\WarpLevel.cs" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

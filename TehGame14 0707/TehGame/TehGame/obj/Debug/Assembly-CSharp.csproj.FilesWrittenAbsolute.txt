@@ -1,0 +1,17 @@
+/Users/Vaseru/Desktop/TehGame/Temp/bin/Debug/Assembly-CSharp.dll.mdb
+/Users/Vaseru/Desktop/TehGame/Temp/bin/Debug/Assembly-CSharp.dll
+/Users/Vaseru/Desktop/TehGame/obj/Debug/Assembly-CSharp.dll
+/Users/Vaseru/Desktop/TehGame/obj/Debug/Assembly-CSharp.dll.mdb
+/Users/Vaseru/Desktop/TehGame/Temp/bin/Debug/UnityEngine.dll
+/Users/Vaseru/Desktop/TehGame/Temp/bin/Debug/UnityEditor.dll
+/Users/Vaseru/Desktop/TehGame/Temp/bin/Debug/UnityEngine.UI.dll
+/Users/Vaseru/Desktop/TehGame/Temp/bin/Debug/UnityEngine.Networking.dll
+/Users/Vaseru/Desktop/TehGame/Temp/bin/Debug/Mono.Cecil.dll
+/Users/Vaseru/Desktop/TehGame/Temp/bin/Debug/Unity.SerializationLogic.dll
+/Users/Vaseru/Desktop/TehGame/Temp/bin/Debug/Unity.DataContract.dll
+/Users/Vaseru/Desktop/TehGame/Temp/bin/Debug/ICSharpCode.NRefactory.dll
+/Users/Vaseru/Desktop/TehGame/Temp/bin/Debug/Unity.UNetWeaver.dll
+/Users/Vaseru/Desktop/TehGame/Temp/bin/Debug/Unity.UNetWeaver.dll.mdb
+/Users/Vaseru/Desktop/TehGame/Temp/bin/Debug/Unity.CecilTools.dll
+/Users/Vaseru/Desktop/TehGame/Temp/bin/Debug/Mono.Cecil.Pdb.dll
+/Users/Vaseru/Desktop/TehGame/Temp/bin/Debug/Mono.Cecil.Mdb.dll

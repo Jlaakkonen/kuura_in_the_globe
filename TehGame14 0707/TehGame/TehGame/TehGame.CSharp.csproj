@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8A40F747-FC71-FE76-4413-8809A86ED6E2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Web v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>WebPlayer:6</UnityBuildTarget>
+    <UnityVersion>5.3.5f1</UnityVersion>
+    <RootNamespace></RootNamespace>
+    <LangVersion Condition=" '$(VisualStudioVersion)' != '10.0' ">4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_3_5;UNITY_5_3;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_WEBPLAYER;ENABLE_SUBSTANCE;WEBPLUG;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_MONO;DEVELOPMENT_BUILD;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_3_5;UNITY_5_3;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_WEBPLAYER;ENABLE_SUBSTANCE;WEBPLUG;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_MONO;DEVELOPMENT_BUILD;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="UnityEngine">
+      <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="assets\Puzzle Scenes\gift\Scripts\CardClick.cs" />
+    <Compile Include="assets\Puzzle Scenes\gift\Scripts\ChooseLevel.cs" />
+    <Compile Include="assets\Puzzle Scenes\gift\Scripts\CountDownTimer.cs" />
+    <Compile Include="assets\Puzzle Scenes\gift\Scripts\CountUpTimer.cs" />
+    <Compile Include="assets\Puzzle Scenes\gift\Scripts\GlobalManager.cs" />
+    <Compile Include="assets\Puzzle Scenes\gift\Scripts\LayerScript.cs" />
+    <Compile Include="assets\Puzzle Scenes\gift\Scripts\Letter.cs" />
+    <Compile Include="assets\Puzzle Scenes\gift\Scripts\Rotator.cs" />
+    <Compile Include="assets\Puzzle Scenes\gift\Scripts\startscript.cs" />
+    <Compile Include="assets\catchtheitems\scripts\DontDestroyOnLoad.cs" />
+    <Compile Include="assets\catchtheitems\scripts\Enemy\CatControl.cs" />
+    <Compile Include="assets\catchtheitems\scripts\Enemy\CatController.cs" />
+    <Compile Include="assets\catchtheitems\scripts\FitToCameraWidth.cs" />
+    <Compile Include="assets\catchtheitems\scripts\GameManagers\ShelfGameManager.cs" />
+    <Compile Include="assets\catchtheitems\scripts\GameManagers\WarpLevelShelfGame.cs" />
+    <Compile Include="assets\catchtheitems\scripts\Item\Bubble.cs" />
+    <Compile Include="assets\catchtheitems\scripts\Item\DropItem.cs" />
+    <Compile Include="assets\catchtheitems\scripts\Item\ItemHolder.cs" />
+    <Compile Include="assets\catchtheitems\scripts\Item\PowerUpSpeedScript.cs" />
+    <Compile Include="assets\catchtheitems\scripts\Item\SizeItem.cs" />
+    <Compile Include="assets\catchtheitems\scripts\Item\SlowDownScript.cs" />
+    <Compile Include="assets\catchtheitems\scripts\Item\Snowflake.cs" />
+    <Compile Include="assets\catchtheitems\scripts\Item\SnowflakeManager.cs" />
+    <Compile Include="assets\catchtheitems\scripts\Item\SpawnPoint.cs" />
+    <Compile Include="assets\catchtheitems\scripts\Item\SpawnpointManager.cs" />
+    <Compile Include="assets\catchtheitems\scripts\Item\SpeedItem.cs" />
+    <Compile Include="assets\catchtheitems\scripts\ParticleSystemScript.cs" />
+    <Compile Include="assets\catchtheitems\scripts\Player\ButtonMove.cs" />
+    <Compile Include="assets\catchtheitems\scripts\Player\Catcher.cs" />
+    <Compile Include="assets\catchtheitems\scripts\Player\PlayerMovement.cs" />
+    <Compile Include="assets\catchtheitems\scripts\UI\BlingScript.cs" />
+    <Compile Include="assets\catchtheitems\scripts\UI\LevelSelectButton.cs" />
+    <Compile Include="assets\catchtheitems\scripts\UI\PageSwapper.cs" />
+    <Compile Include="assets\catchtheitems\scripts\UI\Points.cs" />
+    <Compile Include="assets\catchtheitems\scripts\UI\RestarButton.cs" />
+    <Compile Include="assets\catchtheitems\scripts\UI\Stars.cs" />
+    <Compile Include="assets\catchtheitems\scripts\UI\TimerScript.cs" />
+    <Compile Include="assets\catchtheitems\scripts\UI\UI.cs" />
+    <Compile Include="assets\catchtheitems\scripts\startScript.cs" />
+    <Compile Include="assets\labyrinthgame\scripts\BreakingFloor.cs" />
+    <Compile Include="assets\labyrinthgame\scripts\CatSpawn.cs" />
+    <Compile Include="assets\labyrinthgame\scripts\CharacterMove.cs" />
+    <Compile Include="assets\labyrinthgame\scripts\CharacterMovementTile.cs" />
+    <Compile Include="assets\labyrinthgame\scripts\ClearGridders.cs" />
+    <Compile Include="assets\labyrinthgame\scripts\Collector.cs" />
+    <Compile Include="assets\labyrinthgame\scripts\DontDestroy.cs" />
+    <Compile Include="assets\labyrinthgame\scripts\Environment\AppearWall.cs" />
+    <Compile Include="assets\labyrinthgame\scripts\Environment\BlockRot.cs" />
+    <Compile Include="assets\labyrinthgame\scripts\Environment\DoorAction.cs" />
+    <Compile Include="assets\labyrinthgame\scripts\Environment\KeyGate.cs" />
+    <Compile Include="assets\labyrinthgame\scripts\Environment\MeltableWall.cs" />
+    <Compile Include="assets\labyrinthgame\scripts\Environment\OneWayPass.cs" />
+    <Compile Include="assets\labyrinthgame\scripts\Environment\PlayerPushBlock.cs" />
+    <Compile Include="assets\labyrinthgame\scripts\Environment\SpinBlades.cs" />
+    <Compile Include="assets\labyrinthgame\scripts\Environment\StepOnSwitch.cs" />
+    <Compile Include="assets\labyrinthgame\scripts\Environment\SwitchActivate.cs" />
+    <Compile Include="assets\labyrinthgame\scripts\Environment\SwitchTarget.cs" />
+    <Compile Include="assets\labyrinthgame\scripts\Gridder.cs" />
+    <Compile Include="assets\labyrinthgame\scripts\Joystick.cs" />
+    <Compile Include="assets\labyrinthgame\scripts\JoystickPad.cs" />
+    <Compile Include="assets\labyrinthgame\scripts\LabManager.cs" />
+    <Compile Include="assets\labyrinthgame\scripts\LevelList.cs" />
+    <Compile Include="assets\labyrinthgame\scripts\MapGenerator\MapGenerator.cs" />
+    <Compile Include="assets\labyrinthgame\scripts\MapGenerator\Tile.cs" />
+    <Compile Include="assets\labyrinthgame\scripts\MazeGuard.cs" />
+    <Compile Include="assets\labyrinthgame\scripts\ParticleSortingLayer.cs" />
+    <Compile Include="assets\labyrinthgame\scripts\StepONBUTTONTEST.cs" />
+    <Compile Include="assets\labyrinthgame\scripts\TouchControls.cs" />
+    <Compile Include="assets\labyrinthgame\scripts\UI\ContinueGame.cs" />
+    <Compile Include="assets\labyrinthgame\scripts\UI\OnDeathScreen.cs" />
+    <Compile Include="assets\labyrinthgame\scripts\UI\PauseGame.cs" />
+    <Compile Include="assets\labyrinthgame\scripts\UI\RestartLevel.cs" />
+    <Compile Include="assets\labyrinthgame\scripts\UI\TorchMeterLightAnimator.cs" />
+    <Compile Include="assets\labyrinthgame\scripts\UI\Torches.cs" />
+    <Compile Include="assets\labyrinthgame\scripts\UI\UIhandler.cs" />
+    <Compile Include="assets\labyrinthgame\scripts\UI\UnPause.cs" />
+    <Compile Include="assets\map_scene\graphics\water_animation.cs" />
+    <Compile Include="assets\map_scene\map_camera_script.cs" />
+    <Compile Include="assets\map_scene\map_manager.cs" />
+    <Compile Include="assets\map_scene\map_ui\map_ui_script.cs" />
+    <Compile Include="assets\map_scene\player\map_character_script.cs" />
+    <Compile Include="assets\map_scene\town_people\VillageIdiotScript.cs" />
+    <Compile Include="assets\map_scene\town_people\otus1.cs" />
+    <Compile Include="assets\map_scene\town_people\otus2.cs" />
+    <Compile Include="assets\shared\GameCompleter.cs" />
+    <Compile Include="assets\shared\GameManager.cs" />
+    <Compile Include="assets\shared\GameSelectButton.cs" />
+    <Compile Include="assets\shared\GlobalGameManager.cs" />
+    <Compile Include="assets\shared\LevelSelectLimiter.cs" />
+    <Compile Include="assets\shared\MoviePlayer.cs" />
+    <Compile Include="assets\shared\QuitButton.cs" />
+    <Compile Include="assets\shared\ReturnToWorldSelect.cs" />
+    <Compile Include="assets\shared\ScreenOrientationController.cs" />
+    <Compile Include="assets\shared\WarpLevel.cs" />
+    <Compile Include="assets\start_scene\TEMP_MAP_GLOBAL_MANAGER.cs" />
+    <Compile Include="assets\start_scene\_go_to_start_scene.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\map_scene\graphics\test\test_shader.shader" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
+</Project>
