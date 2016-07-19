@@ -1,0 +1,4 @@
+You may delete the folder "ExampleAndNotes" after you learned how to use the framework. Because it doesn't affect the framework.
+But for future reference, please keep the file About "ALK_Framework.pdf"
+
+Thank you!

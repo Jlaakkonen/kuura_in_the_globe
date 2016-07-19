@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/MapScene/Map2.unity
+  isLoaded: 1
+  isActive: 1

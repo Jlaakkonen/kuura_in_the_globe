@@ -1,0 +1,801 @@
+fileFormatVersion: 2
+guid: 2d340d7362e23624e9e6eff8b6d7cc69
+timeCreated: 1468828388
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: cat_spritesheet_walking3_0
+    21300002: cat_spritesheet_walking3_1
+    21300004: cat_spritesheet_walking3_2
+    21300006: cat_spritesheet_walking3_3
+    21300008: cat_spritesheet_walking3_4
+    21300010: cat_spritesheet_walking3_5
+    21300012: cat_spritesheet_walking3_6
+    21300014: cat_spritesheet_walking3_7
+    21300016: cat_spritesheet_walking3_8
+    21300018: cat_spritesheet_walking3_9
+    21300020: cat_spritesheet_walking3_10
+    21300022: cat_spritesheet_walking3_11
+    21300024: cat_spritesheet_walking3_12
+    21300026: cat_spritesheet_walking3_13
+    21300028: cat_spritesheet_walking3_14
+    21300030: cat_spritesheet_walking3_15
+    21300032: cat_spritesheet_walking3_16
+    21300034: cat_spritesheet_walking3_17
+    21300036: cat_spritesheet_walking3_18
+    21300038: cat_spritesheet_walking3_19
+    21300040: cat_spritesheet_walking3_20
+    21300042: cat_spritesheet_walking3_21
+    21300044: cat_spritesheet_walking3_22
+    21300046: cat_spritesheet_walking3_23
+    21300048: cat_spritesheet_walking3_24
+    21300050: cat_spritesheet_walking3_25
+    21300052: cat_spritesheet_walking3_26
+    21300054: cat_spritesheet_walking3_27
+    21300056: cat_spritesheet_walking3_28
+    21300058: cat_spritesheet_walking3_29
+    21300060: cat_spritesheet_walking3_30
+    21300062: cat_spritesheet_walking3_31
+    21300064: cat_spritesheet_walking3_32
+    21300066: cat_spritesheet_walking3_33
+    21300068: cat_spritesheet_walking3_34
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: cat_spritesheet_walking3_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1220
+        width: 177
+        height: 177
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 78.5, y: 88.5}
+        - {x: 46.5, y: 77.5}
+        - {x: -13.5, y: 88.5}
+        - {x: -58.5, y: 88.5}
+        - {x: -88.5, y: 43.5}
+        - {x: -88.5, y: -37.5}
+        - {x: -82.5, y: -88.5}
+        - {x: 88.5, y: -88.5}
+        - {x: 88.5, y: 88.5}
+    - name: cat_spritesheet_walking3_1
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1220
+        width: 179
+        height: 177
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 76.5, y: -88.5}
+        - {x: 89.5, y: -78.5}
+        - {x: 89.5, y: 88.5}
+        - {x: -89.5, y: 88.5}
+        - {x: -89.5, y: -6.5}
+        - {x: -40.5, y: -88.5}
+        - {x: -1.5, y: -88.5}
+        - {x: 5.5, y: -84.5}
+        - {x: 5.5, y: -66.5}
+        - {x: 20.5, y: -88.5}
+    - name: cat_spritesheet_walking3_2
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 1221
+        width: 167
+        height: 176
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 49.5, y: 88}
+        - {x: 39.5, y: 79}
+        - {x: 41.5, y: 56}
+        - {x: -13.5, y: 88}
+        - {x: -56.5, y: 88}
+        - {x: -83.5, y: 62}
+        - {x: -83.5, y: -27}
+        - {x: -62.5, y: -88}
+        - {x: 83.5, y: -88}
+        - {x: 83.5, y: 58}
+        - {x: 57.5, y: 88}
+    - name: cat_spritesheet_walking3_3
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1221
+        width: 180
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 39, y: 59}
+        - {x: 41, y: 42}
+        - {x: -21, y: 88}
+        - {x: -60, y: 88}
+        - {x: -90, y: 58}
+        - {x: -90, y: -40}
+        - {x: -74, y: -88}
+        - {x: 90, y: -88}
+        - {x: 90, y: 79}
+        - {x: 49, y: 80}
+    - name: cat_spritesheet_walking3_4
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 1220
+        width: 167
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -83.5, y: 88.5}
+        - {x: -83.5, y: -88.5}
+        - {x: 83.5, y: -88.5}
+        - {x: 83.5, y: 88.5}
+    - name: cat_spritesheet_walking3_5
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1019
+        width: 177
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 78.5, y: 88.5}
+        - {x: 46.5, y: 77.5}
+        - {x: -13.5, y: 88.5}
+        - {x: -58.5, y: 88.5}
+        - {x: -88.5, y: 43.5}
+        - {x: -88.5, y: -37.5}
+        - {x: -82.5, y: -88.5}
+        - {x: 88.5, y: -88.5}
+        - {x: 88.5, y: 88.5}
+    - name: cat_spritesheet_walking3_6
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1019
+        width: 179
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 76.5, y: -88.5}
+        - {x: 89.5, y: -78.5}
+        - {x: 89.5, y: 88.5}
+        - {x: -89.5, y: 88.5}
+        - {x: -89.5, y: -6.5}
+        - {x: -40.5, y: -88.5}
+        - {x: -1.5, y: -88.5}
+        - {x: 5.5, y: -84.5}
+        - {x: 5.5, y: -66.5}
+        - {x: 20.5, y: -88.5}
+    - name: cat_spritesheet_walking3_7
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 1020
+        width: 167
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 49.5, y: 88}
+        - {x: 39.5, y: 79}
+        - {x: 41.5, y: 56}
+        - {x: -13.5, y: 88}
+        - {x: -56.5, y: 88}
+        - {x: -83.5, y: 62}
+        - {x: -83.5, y: -27}
+        - {x: -62.5, y: -88}
+        - {x: 83.5, y: -88}
+        - {x: 83.5, y: 58}
+        - {x: 57.5, y: 88}
+    - name: cat_spritesheet_walking3_8
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1020
+        width: 180
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 39, y: 59}
+        - {x: 41, y: 42}
+        - {x: -21, y: 88}
+        - {x: -60, y: 88}
+        - {x: -90, y: 58}
+        - {x: -90, y: -40}
+        - {x: -74, y: -88}
+        - {x: 90, y: -88}
+        - {x: 90, y: 79}
+        - {x: 49, y: 80}
+    - name: cat_spritesheet_walking3_9
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 1020
+        width: 167
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -83.5, y: 88.5}
+        - {x: -83.5, y: -88.5}
+        - {x: 83.5, y: -88.5}
+        - {x: 83.5, y: 88.5}
+    - name: cat_spritesheet_walking3_10
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 819
+        width: 167
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 83.5, y: -77.5}
+        - {x: 83.5, y: 88.5}
+        - {x: -83.5, y: 88.5}
+        - {x: -83.5, y: -36.5}
+        - {x: -75.5, y: -86.5}
+        - {x: -63.5, y: -88.5}
+        - {x: -39.5, y: -88.5}
+        - {x: -33.5, y: -84.5}
+        - {x: -23.5, y: -88.5}
+        - {x: 56.5, y: -88.5}
+    - name: cat_spritesheet_walking3_11
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 820
+        width: 180
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -90, y: 88}
+        - {x: -90, y: -88}
+        - {x: 79, y: -88}
+        - {x: 90, y: -27}
+        - {x: 90, y: 48}
+        - {x: 64, y: 88}
+    - name: cat_spritesheet_walking3_12
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 820
+        width: 167
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -60.5, y: 88}
+        - {x: -83.5, y: 70}
+        - {x: -83.5, y: -79}
+        - {x: -80.5, y: -88}
+        - {x: -62.5, y: -88}
+        - {x: -54.5, y: -83}
+        - {x: -55.5, y: -69}
+        - {x: -19.5, y: -88}
+        - {x: 31.5, y: -88}
+        - {x: 83.5, y: -29}
+        - {x: 83.5, y: 42}
+        - {x: 60.5, y: 88}
+    - name: cat_spritesheet_walking3_13
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 819
+        width: 179
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 86.5, y: -10.5}
+        - {x: 89.5, y: 3.5}
+        - {x: 89.5, y: 41.5}
+        - {x: 57.5, y: 88.5}
+        - {x: 19.5, y: 88.5}
+        - {x: 12.5, y: 85.5}
+        - {x: 10.5, y: 51.5}
+        - {x: -51.5, y: 87.5}
+        - {x: -89.5, y: 83.5}
+        - {x: -89.5, y: -76.5}
+        - {x: -71.5, y: -79.5}
+        - {x: -65.5, y: -68.5}
+        - {x: -43.5, y: -88.5}
+        - {x: -23.5, y: -88.5}
+        - {x: -21.5, y: -87.5}
+        - {x: -13.5, y: -80.5}
+        - {x: -10.5, y: -88.5}
+        - {x: 33.5, y: -88.5}
+    - name: cat_spritesheet_walking3_14
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 819
+        width: 177
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -88.5, y: 88.5}
+        - {x: -88.5, y: -70.5}
+        - {x: -84.5, y: -88.5}
+        - {x: 74.5, y: -88.5}
+        - {x: 88.5, y: -3.5}
+        - {x: 88.5, y: 88.5}
+    - name: cat_spritesheet_walking3_15
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 619
+        width: 167
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 83.5, y: -77.5}
+        - {x: 83.5, y: 88.5}
+        - {x: -83.5, y: 88.5}
+        - {x: -83.5, y: -36.5}
+        - {x: -75.5, y: -86.5}
+        - {x: -63.5, y: -88.5}
+        - {x: -39.5, y: -88.5}
+        - {x: -33.5, y: -84.5}
+        - {x: -23.5, y: -88.5}
+        - {x: 56.5, y: -88.5}
+    - name: cat_spritesheet_walking3_16
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 619
+        width: 180
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -90, y: 88}
+        - {x: -90, y: -88}
+        - {x: 79, y: -88}
+        - {x: 90, y: -27}
+        - {x: 90, y: 48}
+        - {x: 64, y: 88}
+    - name: cat_spritesheet_walking3_17
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 619
+        width: 167
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -60.5, y: 88}
+        - {x: -83.5, y: 70}
+        - {x: -83.5, y: -79}
+        - {x: -80.5, y: -88}
+        - {x: -62.5, y: -88}
+        - {x: -54.5, y: -83}
+        - {x: -55.5, y: -69}
+        - {x: -19.5, y: -88}
+        - {x: 31.5, y: -88}
+        - {x: 83.5, y: -29}
+        - {x: 83.5, y: 42}
+        - {x: 60.5, y: 88}
+    - name: cat_spritesheet_walking3_18
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 618
+        width: 179
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 86.5, y: -10.5}
+        - {x: 89.5, y: 3.5}
+        - {x: 89.5, y: 41.5}
+        - {x: 57.5, y: 88.5}
+        - {x: 19.5, y: 88.5}
+        - {x: 12.5, y: 85.5}
+        - {x: 10.5, y: 51.5}
+        - {x: -51.5, y: 87.5}
+        - {x: -89.5, y: 83.5}
+        - {x: -89.5, y: -76.5}
+        - {x: -71.5, y: -79.5}
+        - {x: -65.5, y: -68.5}
+        - {x: -43.5, y: -88.5}
+        - {x: -23.5, y: -88.5}
+        - {x: -21.5, y: -87.5}
+        - {x: -13.5, y: -80.5}
+        - {x: -10.5, y: -88.5}
+        - {x: 33.5, y: -88.5}
+    - name: cat_spritesheet_walking3_19
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 618
+        width: 177
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -88.5, y: 88.5}
+        - {x: -88.5, y: -70.5}
+        - {x: -84.5, y: -88.5}
+        - {x: 74.5, y: -88.5}
+        - {x: 88.5, y: -3.5}
+        - {x: 88.5, y: 88.5}
+    - name: cat_spritesheet_walking3_20
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 419
+        width: 91
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -45.5, y: 90}
+        - {x: -45.5, y: -75}
+        - {x: -44.5, y: -90}
+        - {x: -13.5, y: -90}
+        - {x: 0.5, y: -83}
+        - {x: 2.5, y: -77}
+        - {x: 1.5, y: -80}
+        - {x: 0.5, y: -84}
+        - {x: 3.5, y: -90}
+        - {x: 29.5, y: -90}
+        - {x: 37.5, y: -54}
+        - {x: 45.5, y: -7}
+        - {x: 45.5, y: 90}
+    - name: cat_spritesheet_walking3_21
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 425
+        width: 91
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -45.5, y: 87}
+        - {x: -45.5, y: -70}
+        - {x: -40.5, y: -87}
+        - {x: 38.5, y: -87}
+        - {x: 45.5, y: -42}
+        - {x: 45.5, y: 86}
+        - {x: 43.5, y: 87}
+    - name: cat_spritesheet_walking3_22
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 431
+        width: 91
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -45.5, y: 84}
+        - {x: -45.5, y: -77}
+        - {x: -35.5, y: -84}
+        - {x: 32.5, y: -84}
+        - {x: 45.5, y: -20}
+        - {x: 45.5, y: 79}
+        - {x: 44.5, y: 84}
+    - name: cat_spritesheet_walking3_23
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 420
+        width: 91
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -37.5, y: 89.5}
+        - {x: -45.5, y: 79.5}
+        - {x: -45.5, y: 18.5}
+        - {x: -34.5, y: -76.5}
+        - {x: -26.5, y: -89.5}
+        - {x: 43.5, y: -89.5}
+        - {x: 45.5, y: -82.5}
+        - {x: 45.5, y: 89.5}
+    - name: cat_spritesheet_walking3_24
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 427
+        width: 91
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -45.5, y: 86}
+        - {x: -45.5, y: -62}
+        - {x: -40.5, y: -86}
+        - {x: 25.5, y: -86}
+        - {x: 34.5, y: -81}
+        - {x: 45.5, y: -15}
+        - {x: 45.5, y: 78}
+        - {x: 43.5, y: 86}
+    - name: cat_spritesheet_walking3_25
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 218
+        width: 91
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -45.5, y: 90}
+        - {x: -45.5, y: -75}
+        - {x: -44.5, y: -90}
+        - {x: -13.5, y: -90}
+        - {x: 0.5, y: -83}
+        - {x: 2.5, y: -77}
+        - {x: 1.5, y: -80}
+        - {x: 0.5, y: -84}
+        - {x: 3.5, y: -90}
+        - {x: 29.5, y: -90}
+        - {x: 37.5, y: -54}
+        - {x: 45.5, y: -7}
+        - {x: 45.5, y: 90}
+    - name: cat_spritesheet_walking3_26
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 224
+        width: 91
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -45.5, y: 87}
+        - {x: -45.5, y: -70}
+        - {x: -40.5, y: -87}
+        - {x: 38.5, y: -87}
+        - {x: 45.5, y: -42}
+        - {x: 45.5, y: 86}
+        - {x: 43.5, y: 87}
+    - name: cat_spritesheet_walking3_27
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 230
+        width: 91
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -45.5, y: 84}
+        - {x: -45.5, y: -77}
+        - {x: -35.5, y: -84}
+        - {x: 32.5, y: -84}
+        - {x: 45.5, y: -20}
+        - {x: 45.5, y: 79}
+        - {x: 44.5, y: 84}
+    - name: cat_spritesheet_walking3_28
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 219
+        width: 91
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -37.5, y: 89.5}
+        - {x: -45.5, y: 79.5}
+        - {x: -45.5, y: 18.5}
+        - {x: -34.5, y: -76.5}
+        - {x: -26.5, y: -89.5}
+        - {x: 43.5, y: -89.5}
+        - {x: 45.5, y: -82.5}
+        - {x: 45.5, y: 89.5}
+    - name: cat_spritesheet_walking3_29
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 226
+        width: 91
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -45.5, y: 86}
+        - {x: -45.5, y: -62}
+        - {x: -40.5, y: -86}
+        - {x: 25.5, y: -86}
+        - {x: 34.5, y: -81}
+        - {x: 45.5, y: -15}
+        - {x: 45.5, y: 78}
+        - {x: 43.5, y: 86}
+    - name: cat_spritesheet_walking3_30
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 17
+        width: 91
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -45.5, y: 90}
+        - {x: -45.5, y: -15}
+        - {x: -36.5, y: -90}
+        - {x: 17.5, y: -90}
+        - {x: 33.5, y: -83}
+        - {x: 45.5, y: -24}
+        - {x: 45.5, y: 90}
+    - name: cat_spritesheet_walking3_31
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 24
+        width: 91
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 43.5, y: 86.5}
+        - {x: -36.5, y: 86.5}
+        - {x: -45.5, y: 73.5}
+        - {x: -45.5, y: 32.5}
+        - {x: -40.5, y: -33.5}
+        - {x: -35.5, y: -86.5}
+        - {x: 28.5, y: -86.5}
+        - {x: 39.5, y: -62.5}
+        - {x: 45.5, y: -28.5}
+        - {x: 45.5, y: 79.5}
+    - name: cat_spritesheet_walking3_32
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 17
+        width: 91
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 42.5, y: 90}
+        - {x: -45.5, y: 90}
+        - {x: -45.5, y: -63}
+        - {x: -19.5, y: -77}
+        - {x: -1.5, y: -76}
+        - {x: 2.5, y: -68}
+        - {x: 3.5, y: -89}
+        - {x: 6.5, y: -90}
+        - {x: 31.5, y: -90}
+        - {x: 34.5, y: -88}
+        - {x: 45.5, y: 7}
+        - {x: 45.5, y: 85}
+    - name: cat_spritesheet_walking3_33
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 24
+        width: 91
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -45.5, y: 86.5}
+        - {x: -45.5, y: -84.5}
+        - {x: -41.5, y: -86.5}
+        - {x: 36.5, y: -86.5}
+        - {x: 43.5, y: -74.5}
+        - {x: 45.5, y: -33.5}
+        - {x: 45.5, y: 86.5}
+    - name: cat_spritesheet_walking3_34
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 16
+        width: 91
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44.5, y: 90.5}
+        - {x: -45.5, y: 85.5}
+        - {x: -45.5, y: -22.5}
+        - {x: -41.5, y: -57.5}
+        - {x: -29.5, y: -90.5}
+        - {x: 5.5, y: -90.5}
+        - {x: 31.5, y: -85.5}
+        - {x: 45.5, y: 23.5}
+        - {x: 45.5, y: 79.5}
+        - {x: 40.5, y: 90.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
