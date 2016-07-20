@@ -45,6 +45,7 @@ public class ButtonScript : MonoBehaviour
 
         BobPlayerScript.CheckNeighbour();   //Verrataan kohdeobjektin arvoa lähtöobjektin arvoon
         BobPlayerScript.destination = gameObject.transform.position;    //Liikutetaan pelaajaobjekti klikattuun objektiin
+        BobPlayerScript.destination.y = BobPlayerScript.destination.y + 1;      //Nostetaan Bob buttonia ylemmäs
     }
 }
 

@@ -82,6 +82,7 @@ public class BobPlayerScript : MonoBehaviour
     void FixedUpdate ()
     {
         Movement();
+        BobScale();
 
         if (Moving)
         {
@@ -223,6 +224,11 @@ public class BobPlayerScript : MonoBehaviour
         {
 
         }
+    }
+
+    void BobScale()     //Skaalataan Bobia perspektiivin mukaan
+    {
+        gameObject.transform.localScale = new Vector2 (Mathf.Abs(gameObject.transform.position.y * 0.1F), Mathf.Abs(gameObject.transform.position.y * 0.1F));
     }
 
     void OnTriggerEnter2D(Collider2D Col)
